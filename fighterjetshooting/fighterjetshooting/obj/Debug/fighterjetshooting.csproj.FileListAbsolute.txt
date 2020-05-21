@@ -1,0 +1,10 @@
+C:\DP1\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+C:\DP1\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+C:\DP1\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
