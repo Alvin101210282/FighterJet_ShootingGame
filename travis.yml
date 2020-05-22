@@ -6,8 +6,7 @@ instal:
  - yarn install
 
 script:
- - yarn test
- - yarn run build
+ - fighterjetshooting.sln
 
 deploy:
   provider: pages
