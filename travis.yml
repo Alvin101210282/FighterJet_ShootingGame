@@ -1,2 +1,19 @@
 language: csharp
-solution: solution-name.sln
+solution: fighterjetshooting.sln
+cache: yarn
+
+instal:
+ - yarn install
+
+script:
+ - yarn test
+ - yarn run build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
+    
+  
