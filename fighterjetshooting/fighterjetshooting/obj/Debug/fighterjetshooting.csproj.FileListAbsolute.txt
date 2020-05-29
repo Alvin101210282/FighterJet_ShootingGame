@@ -8,3 +8,13 @@ C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj
 C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
 C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
 C:\DP1\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+C:\Users\User\Desktop\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+C:\Users\User\Desktop\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+C:\Users\User\Desktop\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+C:\Users\User\Desktop\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+C:\Users\User\Desktop\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+C:\Users\User\Desktop\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+C:\Users\User\Desktop\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+C:\Users\User\Desktop\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+C:\Users\User\Desktop\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
