@@ -12,11 +12,13 @@ namespace fighterjetshooting
 {
     public partial class Form1 : Form
     {
-
         bool goLeft, goRight, shooting, isGameOver;
         int score;
-        int playerSpeed = 12;
+        int playerHealth = 3;
+        int playerSpeed = 15;
         int enemySpeed;
+        System.Windows.Forms.PictureBox[] healthBar = new System.Windows.Forms.PictureBox[3];
+        int indexVar = 0;
         int bulletSpeed;
         Random rnd = new Random();
         public Form1()
@@ -33,10 +35,15 @@ namespace fighterjetshooting
             enemyTwo.Top += enemySpeed;
             enemyThree.Top += enemySpeed;
 
-            if(enemyOne.Top > 674 || enemyTwo.Top > 674 || enemyThree.Top > 674)
+            if(playerHealth > 0)
+            {
+                checkEnemyPlane();
+            }
+            else
             {
                 gameOver();
             }
+
             //Player Movement
             if (goLeft == true && player.Left > 0)
             {
@@ -49,7 +56,7 @@ namespace fighterjetshooting
 
             if(shooting == true)
             {
-                bulletSpeed = 20;
+                bulletSpeed = 30;
                 Bullet.Top -= bulletSpeed;
             }
             else
@@ -100,6 +107,36 @@ namespace fighterjetshooting
             }
         }
 
+        //HEALTH BAR IMPLEMENTATION
+        private void checkEnemyPlane()
+        {
+            if (enemyOne.Top > 674)
+            {
+                playerHealth -= 1;
+                healthBar[indexVar].Visible = false;
+                indexVar += 1;
+                enemyOne.Top = -450;
+                enemyOne.Left = rnd.Next(20, 600);
+
+            }
+            else if (enemyTwo.Top > 674)
+            {
+                playerHealth -= 1;
+                healthBar[indexVar].Visible = false;
+                indexVar += 1;
+                enemyTwo.Top = -650;
+                enemyTwo.Left = rnd.Next(20, 600);
+            }
+            else if (enemyThree.Top > 674)
+            {
+                playerHealth -= 1;
+                healthBar[indexVar].Visible = false;
+                indexVar += 1;
+                enemyThree.Top = -750;
+                enemyThree.Left = rnd.Next(20, 600);
+            }
+        }
+
         private void keyisdown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)
@@ -123,6 +160,21 @@ namespace fighterjetshooting
         }
 
         private void player_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtScore_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }
@@ -167,14 +219,19 @@ namespace fighterjetshooting
             bulletSpeed = 0;
             Bullet.Left = -300;
 
+            healthBar[0] = Heart1;
+            healthBar[1] = Heart2;
+            healthBar[2] = Heart3;
+
             txtScore.Text = score.ToString();
         }
 
+        //GAME OVER 
         private void gameOver()
         {
             isGameOver = true;
             gameTimer.Stop();
-            txtScore.Text += Environment.NewLine + "Game Over!!" + Environment.NewLine + "Press Enter to try again.";
+            GameOverText.Visible = true;
         }
     }
 }
