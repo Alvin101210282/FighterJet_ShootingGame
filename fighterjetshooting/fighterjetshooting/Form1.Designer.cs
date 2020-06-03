@@ -54,12 +54,12 @@
             // 
             this.txtScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtScore.ForeColor = System.Drawing.Color.Black;
+            this.txtScore.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.txtScore.Location = new System.Drawing.Point(1, -2);
             this.txtScore.Name = "txtScore";
-            this.txtScore.Size = new System.Drawing.Size(92, 73);
+            this.txtScore.Size = new System.Drawing.Size(126, 73);
             this.txtScore.TabIndex = 8;
             this.txtScore.Text = "0";
-            this.txtScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.txtScore.Click += new System.EventHandler(this.txtScore_Click);
             // 
             // gameTimer
@@ -160,13 +160,12 @@
             this.GameOverText.Text = "GAME OVER";
             this.GameOverText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.GameOverText.Visible = false;
-            this.GameOverText.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(892, 773);
             this.Controls.Add(this.GameOverText);
             this.Controls.Add(this.Heart3);
