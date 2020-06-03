@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,30 +13,42 @@ namespace fighterjetshooting
 {
     public partial class Form1 : Form
     {
+        Form2 form2 = new Form2();
+        Form3 form3 = new Form3();
         bool goLeft, goRight, shooting, isGameOver;
-        int score;
-        int playerHealth = 3;
-        int playerSpeed = 15;
-        int enemySpeed;
+        Player plyr = new Player();
+        Enemy enemy1 = new Enemy();
+        Enemy enemy2 = new Enemy();
+        Enemy enemy3 = new Enemy();
         System.Windows.Forms.PictureBox[] healthBar = new System.Windows.Forms.PictureBox[3];
         int indexVar = 0;
-        int bulletSpeed;
         Random rnd = new Random();
+
         public Form1()
         {
-            InitializeComponent();
-            resetGame();
+            form2.ShowDialog();
+            
+            if (Form2.Startgame == true)
+            {
+                form3.ShowDialog();
+                InitializeComponent();
+                resetGame();
+            }
+            else
+            {
+                this.Close();
+            }
         }
 
         private void mainGameTimerEvent(object sender, EventArgs e)
         {
-            txtScore.Text = score.ToString();
+            txtScore.Text = plyr.Score.ToString();
 
-            enemyOne.Top += enemySpeed;
-            enemyTwo.Top += enemySpeed;
-            enemyThree.Top += enemySpeed;
+            enemyOne.Top += enemy1.EnemySpeed;
+            enemyTwo.Top += enemy2.EnemySpeed;
+            enemyThree.Top += enemy3.EnemySpeed;
 
-            if(playerHealth > 0)
+            if(plyr.PlayerHealth > 0)
             {
                 checkEnemyPlane();
             }
@@ -44,25 +57,26 @@ namespace fighterjetshooting
                 gameOver();
             }
 
-            //Player Movement
+            //PLAYER MOVEMENT
             if (goLeft == true && player.Left > 0)
             {
-                player.Left -= playerSpeed;
+                player.Left -= plyr.PlayerSpeed;
             }
             if (goRight == true && player.Left < 543)
             {
-                player.Left += playerSpeed;
+                player.Left += plyr.PlayerSpeed;
             }
 
+            //PLAYER SHOOTING
             if(shooting == true)
             {
-                bulletSpeed = 30;
-                Bullet.Top -= bulletSpeed;
+                plyr.BulletSpeed = 40;
+                Bullet.Top -= plyr.BulletSpeed;
             }
             else
             {
                 Bullet.Left = -300;
-                bulletSpeed = 0;
+                plyr.BulletSpeed = 0;
             }
 
             if(Bullet.Top < -30)
@@ -70,9 +84,14 @@ namespace fighterjetshooting
                 shooting = false;
             }
 
+            //ENEMY SPEED
             if (Bullet.Bounds.IntersectsWith(enemyOne.Bounds))
             {
-                score += 1;
+                plyr.Score += 1;
+                if (plyr.Score % 5 == 0 && plyr.Score != 0)
+                {
+                    enemy1.EnemySpeed += 1;
+                }
                 enemyOne.Top = -450;
                 enemyOne.Left = rnd.Next(20, 600);
                 shooting = false;
@@ -81,7 +100,11 @@ namespace fighterjetshooting
 
             if (Bullet.Bounds.IntersectsWith(enemyTwo.Bounds))
             {
-                score += 1;
+                plyr.Score += 1;
+                if (plyr.Score % 5 == 0 && plyr.Score != 0)
+                {
+                    enemy2.EnemySpeed += 1;
+                }
                 enemyTwo.Top = -650;
                 enemyTwo.Left = rnd.Next(20, 600);
                 shooting = false;
@@ -90,20 +113,22 @@ namespace fighterjetshooting
 
             if (Bullet.Bounds.IntersectsWith(enemyThree.Bounds))
             {
-                score += 1;
+                plyr.Score += 1;
+                if (plyr.Score % 5 == 0 && plyr.Score != 0)
+                {
+                    enemy3.EnemySpeed += 1;
+                }
                 enemyThree.Top = -750;
                 enemyThree.Left = rnd.Next(20, 600);
                 shooting = false;
 
             }
 
-            if(score == 5)
+            if (enemy1.EnemySpeed > 14 && enemy2.EnemySpeed > 14 && enemy3.EnemySpeed > 14)
             {
-                enemySpeed = 10;
-            }
-            if(score == 10)
-            {
-                enemySpeed = 15;
+                enemy1.EnemySpeed = 14;
+                enemy2.EnemySpeed = 14;
+                enemy3.EnemySpeed = 14;
             }
         }
 
@@ -112,7 +137,7 @@ namespace fighterjetshooting
         {
             if (enemyOne.Top > 674)
             {
-                playerHealth -= 1;
+                plyr.PlayerHealth -= 1;
                 healthBar[indexVar].Visible = false;
                 indexVar += 1;
                 enemyOne.Top = -450;
@@ -121,7 +146,7 @@ namespace fighterjetshooting
             }
             else if (enemyTwo.Top > 674)
             {
-                playerHealth -= 1;
+                plyr.PlayerHealth -= 1;
                 healthBar[indexVar].Visible = false;
                 indexVar += 1;
                 enemyTwo.Top = -650;
@@ -129,7 +154,7 @@ namespace fighterjetshooting
             }
             else if (enemyThree.Top > 674)
             {
-                playerHealth -= 1;
+                plyr.PlayerHealth -= 1;
                 healthBar[indexVar].Visible = false;
                 indexVar += 1;
                 enemyThree.Top = -750;
@@ -151,7 +176,7 @@ namespace fighterjetshooting
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void enemyOne_Click(object sender, EventArgs e)
@@ -165,16 +190,6 @@ namespace fighterjetshooting
         }
 
         private void txtScore_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }
@@ -205,7 +220,6 @@ namespace fighterjetshooting
         private void resetGame()
         {
             gameTimer.Start();
-            enemySpeed = 6;
 
             enemyOne.Left = rnd.Next(20, 543);
             enemyTwo.Left = rnd.Next(20, 543);
@@ -215,15 +229,15 @@ namespace fighterjetshooting
             enemyTwo.Top = rnd.Next(0, 500) * -1;
             enemyThree.Top = rnd.Next(0, 900) * -1;
 
-            score = 0;
-            bulletSpeed = 0;
+            plyr.Score = 0;
+            plyr.BulletSpeed = 0;
             Bullet.Left = -300;
 
             healthBar[0] = Heart1;
             healthBar[1] = Heart2;
             healthBar[2] = Heart3;
 
-            txtScore.Text = score.ToString();
+            txtScore.Text = plyr.Score.ToString();
         }
 
         //GAME OVER 
