@@ -32,13 +32,5 @@ namespace FighterJetUnitTesting
             enemytest.EnemyHealth -= 1000;
             Assert.AreEqual(enemytest.EnemyHealth, 0);
         }
-
-        [TestMethod]
-        public void ResetTest()
-        {
-            Player playertest = new Player();
-            Form1 form1 = new Form1();
-            form1.resetGame();
-        }
     }
 }
