@@ -85,6 +85,7 @@
             this.Play_button.TabIndex = 1;
             this.Play_button.UseVisualStyleBackColor = false;
             this.Play_button.Click += new System.EventHandler(this.Play);
+            this.Play_button.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PlayButton);
             // 
             // timer1
             // 
@@ -111,6 +112,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.PlayButton);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

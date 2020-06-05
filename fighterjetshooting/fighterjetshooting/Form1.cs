@@ -42,6 +42,7 @@ namespace fighterjetshooting
 
         private void mainGameTimerEvent(object sender, EventArgs e)
         {
+            plyr.Username = Form3.username;
             txtScore.Text = plyr.Score.ToString();
 
             enemyOne.Top += enemy1.EnemySpeed;
@@ -207,7 +208,6 @@ namespace fighterjetshooting
             if(e.KeyCode == Keys.Space && shooting == false)
             {
                 shooting = true;
-
                 Bullet.Top = player.Top + 30;
                 Bullet.Left = player.Left + (player.Width / 2);
             }
@@ -217,7 +217,7 @@ namespace fighterjetshooting
             }
         }
 
-        private void resetGame()
+        public void resetGame()
         {
             gameTimer.Start();
 
