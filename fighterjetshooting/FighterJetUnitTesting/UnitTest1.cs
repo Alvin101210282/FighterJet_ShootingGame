@@ -32,5 +32,6 @@ namespace FighterJetUnitTesting
             enemytest.EnemyHealth -= 1000;
             Assert.AreEqual(enemytest.EnemyHealth, 0);
         }
+
     }
 }
