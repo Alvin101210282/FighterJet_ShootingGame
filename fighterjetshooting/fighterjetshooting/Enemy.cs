@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace fighterjetshooting
 {
-    class Enemy
+    public class Enemy
     {
         private int enemyHealth;
+        private int bulletSpeed;
+        private string bulletType;
         private int enemySpeed;
 
         public Enemy()
@@ -16,16 +18,37 @@ namespace fighterjetshooting
             enemySpeed = 6;
         }
 
-        public Enemy(int health, int speed)
+        public Enemy(int health, int enemyspeed, string bullettype, int bulletspeed)
         {
             enemyHealth = health;
-            enemySpeed = speed;
+            enemySpeed = enemyspeed;
+            bulletType = bullettype;
+            BulletSpeed = bulletspeed;
+
         }
 
         public int EnemySpeed
         {
             get { return enemySpeed; }
             set { enemySpeed = value; }
+        }
+
+        public int EnemyHealth
+        {
+            get { return enemyHealth; }
+            set { enemyHealth = value; }
+        }
+
+        public int BulletSpeed
+        {
+            get { return bulletSpeed; }
+            set { bulletSpeed = value; }
+        }
+
+        public string BulletType
+        {
+            get { return bulletType; }
+            set { bulletType = value; }
         }
     }
 }

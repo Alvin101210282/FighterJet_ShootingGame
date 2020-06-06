@@ -1,0 +1,4 @@
+C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\FighterJetUnitTesting\obj\Debug\netcoreapp3.0\FighterJetUnitTesting.csprojAssemblyReference.cache
+C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\FighterJetUnitTesting\obj\Debug\netcoreapp3.0\FighterJetUnitTesting.AssemblyInfoInputs.cache
+C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\FighterJetUnitTesting\obj\Debug\netcoreapp3.0\FighterJetUnitTesting.AssemblyInfo.cs
+C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\FighterJetUnitTesting\obj\Debug\netcoreapp3.0\FighterJetUnitTesting.csproj.CoreCompileInputs.cache

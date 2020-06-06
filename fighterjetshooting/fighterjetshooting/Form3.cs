@@ -12,6 +12,7 @@ namespace fighterjetshooting
 {
     public partial class Form3 : Form
     {
+        public static string username;
         public Form3()
         {
             InitializeComponent();
@@ -22,14 +23,27 @@ namespace fighterjetshooting
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Enter_Button(object sender, EventArgs e)
         {
-
+            username = UsernameBox.Text;
+            this.Hide();
+            Form2.Startgame = true;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        
+        private void Username_Input(object sender, EventArgs e)
         {
+           
+        }
 
+        private void PressEnter(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                username = UsernameBox.Text;
+                this.Hide();
+                Form2.Startgame = true;
+            }
         }
     }
 }

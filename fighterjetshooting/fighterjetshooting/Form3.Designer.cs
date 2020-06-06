@@ -36,6 +36,7 @@
             // 
             // UsernameBox
             // 
+            this.UsernameBox.AcceptsReturn = true;
             this.UsernameBox.BackColor = System.Drawing.SystemColors.Info;
             this.UsernameBox.Font = new System.Drawing.Font("Impact", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsernameBox.Location = new System.Drawing.Point(199, 360);
@@ -44,7 +45,9 @@
             this.UsernameBox.Name = "UsernameBox";
             this.UsernameBox.Size = new System.Drawing.Size(513, 71);
             this.UsernameBox.TabIndex = 0;
-            this.UsernameBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.UsernameBox.Click += new System.EventHandler(this.Username_Input);
+            this.UsernameBox.TextChanged += new System.EventHandler(this.Username_Input);
+            this.UsernameBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PressEnter);
             // 
             // button1
             // 
@@ -57,7 +60,7 @@
             this.button1.Size = new System.Drawing.Size(218, 71);
             this.button1.TabIndex = 2;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Enter_Button);
             // 
             // pictureBox1
             // 
