@@ -78,3 +78,15 @@ C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\Fighter Jet Sh
 C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\Fighter Jet Shooting Game v4.5\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
 C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\Fighter Jet Shooting Game v4.5\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
 C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\Fighter Jet Shooting Game v4.5\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+C:\Users\Alvin\Desktop\FighterJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
