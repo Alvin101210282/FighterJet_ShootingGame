@@ -12,6 +12,7 @@ namespace fighterjetshooting
         private int bulletSpeed;
         private string bulletType;
         private int enemySpeed;
+
         public Enemy()
         {
             enemySpeed = 6;
@@ -49,6 +50,5 @@ namespace fighterjetshooting
             get { return bulletType; }
             set { bulletType = value; }
         }
-
     }
 }

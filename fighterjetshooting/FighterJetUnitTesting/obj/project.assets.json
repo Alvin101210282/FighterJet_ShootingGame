@@ -5660,23 +5660,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alvin\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alvin\\Desktop\\FighterJet\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
       "projectName": "FighterJetUnitTesting",
-      "projectPath": "C:\\Users\\Alvin\\Desktop\\FighterJet\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
-      "packagesPath": "C:\\Users\\Alvin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alvin\\Desktop\\FighterJet\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5689,8 +5689,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\Alvin\\Desktop\\FighterJet\\FighterJet_ShootingGame\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
-              "projectPath": "C:\\Users\\Alvin\\Desktop\\FighterJet\\FighterJet_ShootingGame\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
+            "C:\\Users\\User\\Desktop\\FighterJet_ShootingGame\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\FighterJet_ShootingGame\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
             }
           }
         }
@@ -5731,6 +5731,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

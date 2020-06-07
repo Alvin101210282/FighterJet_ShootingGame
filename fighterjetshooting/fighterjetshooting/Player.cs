@@ -14,7 +14,6 @@ namespace fighterjetshooting
         private int bulletSpeed;
         private string username;
 
-
         public Player()
         {
             score = 0;
@@ -53,14 +52,6 @@ namespace fighterjetshooting
         {
             get { return username; }
             set { username = value; }
-        }
-
-        public void Eat(PowerUp pow)
-        {
-            if(pow.PowerType == "heal")
-            {
-                playerHealth += 1;
-            }
         }
     }
 }
