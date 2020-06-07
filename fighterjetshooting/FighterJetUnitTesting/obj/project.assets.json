@@ -5666,11 +5666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Fighter_Jet_ShootingGame-v6\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
       "projectName": "FighterJetUnitTesting",
-      "projectPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_ShootingGame-v6\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_ShootingGame-v6\\fighterjetshooting\\FighterJetUnitTesting\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5689,8 +5689,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Fighter_Jet_ShootingGame-v6\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_ShootingGame-v6\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
+            "C:\\Users\\User\\Desktop\\FighterJet_ShootingGame\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\FighterJet_ShootingGame\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
             }
           }
         }
@@ -5731,12 +5731,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
