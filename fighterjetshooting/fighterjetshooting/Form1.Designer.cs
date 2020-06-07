@@ -11,7 +11,6 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -30,25 +29,47 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtScore = new System.Windows.Forms.Label();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
+            this.GameOverText = new System.Windows.Forms.Label();
+            this.Heart3 = new System.Windows.Forms.PictureBox();
+            this.Heart2 = new System.Windows.Forms.PictureBox();
             this.Heart1 = new System.Windows.Forms.PictureBox();
             this.enemyTwo = new System.Windows.Forms.PictureBox();
             this.enemyThree = new System.Windows.Forms.PictureBox();
             this.player = new System.Windows.Forms.PictureBox();
             this.Bullet = new System.Windows.Forms.PictureBox();
             this.enemyOne = new System.Windows.Forms.PictureBox();
-            this.Heart2 = new System.Windows.Forms.PictureBox();
-            this.Heart3 = new System.Windows.Forms.PictureBox();
-            this.GameOverText = new System.Windows.Forms.Label();
+            this.atom_pow = new System.Windows.Forms.PictureBox();
+            this.pow_timer = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.heal = new System.Windows.Forms.PictureBox();
+            this.atom = new System.Windows.Forms.PictureBox();
+            this.shield = new System.Windows.Forms.PictureBox();
+            this.freeze = new System.Windows.Forms.PictureBox();
+            this.order1 = new System.Windows.Forms.PictureBox();
+            this.order2 = new System.Windows.Forms.PictureBox();
+            this.order3 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Heart3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Heart2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Heart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyThree)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bullet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyOne)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Heart2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Heart3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.atom_pow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.atom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shield)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freeze)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.order1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.order2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.order3)).BeginInit();
             this.SuspendLayout();
             // 
             // txtScore
@@ -67,6 +88,38 @@
             // 
             this.gameTimer.Interval = 20;
             this.gameTimer.Tick += new System.EventHandler(this.mainGameTimerEvent);
+            // 
+            // GameOverText
+            // 
+            this.GameOverText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GameOverText.ForeColor = System.Drawing.Color.Black;
+            this.GameOverText.Location = new System.Drawing.Point(284, 237);
+            this.GameOverText.Name = "GameOverText";
+            this.GameOverText.Size = new System.Drawing.Size(311, 54);
+            this.GameOverText.TabIndex = 12;
+            this.GameOverText.Text = "GAME OVER";
+            this.GameOverText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.GameOverText.Visible = false;
+            // 
+            // Heart3
+            // 
+            this.Heart3.Image = global::fighterjetshooting.Properties.Resources.heart_v3;
+            this.Heart3.Location = new System.Drawing.Point(819, 12);
+            this.Heart3.Name = "Heart3";
+            this.Heart3.Size = new System.Drawing.Size(31, 28);
+            this.Heart3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Heart3.TabIndex = 11;
+            this.Heart3.TabStop = false;
+            // 
+            // Heart2
+            // 
+            this.Heart2.Image = global::fighterjetshooting.Properties.Resources.heart_v3;
+            this.Heart2.Location = new System.Drawing.Point(782, 12);
+            this.Heart2.Name = "Heart2";
+            this.Heart2.Size = new System.Drawing.Size(31, 28);
+            this.Heart2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Heart2.TabIndex = 10;
+            this.Heart2.TabStop = false;
             // 
             // Heart1
             // 
@@ -122,7 +175,7 @@
             // enemyOne
             // 
             this.enemyOne.Image = global::fighterjetshooting.Properties.Resources.enemy;
-            this.enemyOne.Location = new System.Drawing.Point(169, 31);
+            this.enemyOne.Location = new System.Drawing.Point(154, 46);
             this.enemyOne.Name = "enemyOne";
             this.enemyOne.Size = new System.Drawing.Size(100, 85);
             this.enemyOne.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -130,37 +183,111 @@
             this.enemyOne.TabStop = false;
             this.enemyOne.Click += new System.EventHandler(this.enemyOne_Click);
             // 
-            // Heart2
+            // atom_pow
             // 
-            this.Heart2.Image = global::fighterjetshooting.Properties.Resources.heart_v3;
-            this.Heart2.Location = new System.Drawing.Point(782, 12);
-            this.Heart2.Name = "Heart2";
-            this.Heart2.Size = new System.Drawing.Size(31, 28);
-            this.Heart2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Heart2.TabIndex = 10;
-            this.Heart2.TabStop = false;
+            this.atom_pow.Image = ((System.Drawing.Image)(resources.GetObject("atom_pow.Image")));
+            this.atom_pow.Location = new System.Drawing.Point(719, 237);
+            this.atom_pow.Name = "atom_pow";
+            this.atom_pow.Size = new System.Drawing.Size(31, 33);
+            this.atom_pow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.atom_pow.TabIndex = 16;
+            this.atom_pow.TabStop = false;
+            this.atom_pow.Visible = false;
+            this.atom_pow.Click += new System.EventHandler(this.powerUp_Click);
             // 
-            // Heart3
+            // pow_timer
             // 
-            this.Heart3.Image = global::fighterjetshooting.Properties.Resources.heart_v3;
-            this.Heart3.Location = new System.Drawing.Point(819, 12);
-            this.Heart3.Name = "Heart3";
-            this.Heart3.Size = new System.Drawing.Size(31, 28);
-            this.Heart3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Heart3.TabIndex = 11;
-            this.Heart3.TabStop = false;
+            this.pow_timer.Tick += new System.EventHandler(this.appear_time);
             // 
-            // GameOverText
+            // pictureBox1
             // 
-            this.GameOverText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GameOverText.ForeColor = System.Drawing.Color.Black;
-            this.GameOverText.Location = new System.Drawing.Point(284, 237);
-            this.GameOverText.Name = "GameOverText";
-            this.GameOverText.Size = new System.Drawing.Size(311, 54);
-            this.GameOverText.TabIndex = 12;
-            this.GameOverText.Text = "GAME OVER";
-            this.GameOverText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.GameOverText.Visible = false;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(719, 307);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(719, 124);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(31, 33);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Visible = false;
+            // 
+            // heal
+            // 
+            this.heal.Image = ((System.Drawing.Image)(resources.GetObject("heal.Image")));
+            this.heal.Location = new System.Drawing.Point(31, 326);
+            this.heal.Name = "heal";
+            this.heal.Size = new System.Drawing.Size(69, 70);
+            this.heal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.heal.TabIndex = 20;
+            this.heal.TabStop = false;
+            this.heal.Visible = false;
+            // 
+            // atom
+            // 
+            this.atom.Image = ((System.Drawing.Image)(resources.GetObject("atom.Image")));
+            this.atom.Location = new System.Drawing.Point(31, 46);
+            this.atom.Name = "atom";
+            this.atom.Size = new System.Drawing.Size(69, 70);
+            this.atom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.atom.TabIndex = 21;
+            this.atom.TabStop = false;
+            this.atom.Visible = false;
+            // 
+            // shield
+            // 
+            this.shield.Image = ((System.Drawing.Image)(resources.GetObject("shield.Image")));
+            this.shield.Location = new System.Drawing.Point(31, 237);
+            this.shield.Name = "shield";
+            this.shield.Size = new System.Drawing.Size(69, 70);
+            this.shield.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.shield.TabIndex = 22;
+            this.shield.TabStop = false;
+            this.shield.Visible = false;
+            // 
+            // freeze
+            // 
+            this.freeze.Image = ((System.Drawing.Image)(resources.GetObject("freeze.Image")));
+            this.freeze.Location = new System.Drawing.Point(31, 141);
+            this.freeze.Name = "freeze";
+            this.freeze.Size = new System.Drawing.Size(69, 70);
+            this.freeze.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.freeze.TabIndex = 23;
+            this.freeze.TabStop = false;
+            this.freeze.Visible = false;
+            // 
+            // order1
+            // 
+            this.order1.Location = new System.Drawing.Point(819, 59);
+            this.order1.Name = "order1";
+            this.order1.Size = new System.Drawing.Size(31, 33);
+            this.order1.TabIndex = 24;
+            this.order1.TabStop = false;
+            // 
+            // order2
+            // 
+            this.order2.Location = new System.Drawing.Point(819, 110);
+            this.order2.Name = "order2";
+            this.order2.Size = new System.Drawing.Size(31, 33);
+            this.order2.TabIndex = 25;
+            this.order2.TabStop = false;
+            // 
+            // order3
+            // 
+            this.order3.Location = new System.Drawing.Point(819, 165);
+            this.order3.Name = "order3";
+            this.order3.Size = new System.Drawing.Size(31, 33);
+            this.order3.TabIndex = 26;
+            this.order3.TabStop = false;
             // 
             // Form1
             // 
@@ -168,6 +295,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(892, 773);
+            this.Controls.Add(this.freeze);
+            this.Controls.Add(this.shield);
+            this.Controls.Add(this.atom);
+            this.Controls.Add(this.heal);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.GameOverText);
             this.Controls.Add(this.Heart3);
             this.Controls.Add(this.Heart2);
@@ -178,19 +311,33 @@
             this.Controls.Add(this.Bullet);
             this.Controls.Add(this.enemyOne);
             this.Controls.Add(this.txtScore);
+            this.Controls.Add(this.atom_pow);
+            this.Controls.Add(this.order1);
+            this.Controls.Add(this.order2);
+            this.Controls.Add(this.order3);
             this.Name = "Form1";
             this.Text = "Fighter Jet Shooting Game";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
+            ((System.ComponentModel.ISupportInitialize)(this.Heart3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Heart2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Heart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyThree)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bullet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyOne)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Heart2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Heart3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.atom_pow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.heal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.atom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shield)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freeze)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.order1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.order2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.order3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,6 +356,17 @@
         private System.Windows.Forms.PictureBox Heart2;
         private System.Windows.Forms.PictureBox Heart3;
         private System.Windows.Forms.Label GameOverText;
+        private System.Windows.Forms.PictureBox atom_pow;
+        private System.Windows.Forms.Timer pow_timer;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox atom;
+        private System.Windows.Forms.PictureBox shield;
+        private System.Windows.Forms.PictureBox freeze;
+        public System.Windows.Forms.PictureBox heal;
+        private System.Windows.Forms.PictureBox order1;
+        private System.Windows.Forms.PictureBox order2;
+        private System.Windows.Forms.PictureBox order3;
     }
 }
 

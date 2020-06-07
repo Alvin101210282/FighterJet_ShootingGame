@@ -42,27 +42,15 @@ C:\Users\User\Desktop\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetsh
 C:\Users\User\Desktop\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
 C:\Users\User\Desktop\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
-C:\Users\Alvin\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\FighterJet_ShootingGame-v3 (2)\FighterJet_ShootingGame-v3\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
-C:\Users\Alvin\Desktop\DP1\Distinction Task\FigtherJet\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+C:\Users\User\Desktop\FighterJet_ShootingGame-v4\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
