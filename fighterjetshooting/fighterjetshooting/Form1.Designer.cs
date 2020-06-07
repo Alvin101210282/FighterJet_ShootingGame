@@ -11,7 +11,6 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -32,23 +31,27 @@
             this.components = new System.ComponentModel.Container();
             this.txtScore = new System.Windows.Forms.Label();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
+            this.GameOverText = new System.Windows.Forms.Label();
+            this.newTimer = new System.Windows.Forms.Timer(this.components);
+            this.return_menu = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.ReplayButton = new System.Windows.Forms.Button();
+            this.Heart3 = new System.Windows.Forms.PictureBox();
+            this.Heart2 = new System.Windows.Forms.PictureBox();
             this.Heart1 = new System.Windows.Forms.PictureBox();
             this.enemyTwo = new System.Windows.Forms.PictureBox();
             this.enemyThree = new System.Windows.Forms.PictureBox();
             this.player = new System.Windows.Forms.PictureBox();
             this.Bullet = new System.Windows.Forms.PictureBox();
             this.enemyOne = new System.Windows.Forms.PictureBox();
-            this.Heart2 = new System.Windows.Forms.PictureBox();
-            this.Heart3 = new System.Windows.Forms.PictureBox();
-            this.GameOverText = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.Heart3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Heart2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Heart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyThree)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bullet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyOne)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Heart2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Heart3)).BeginInit();
             this.SuspendLayout();
             // 
             // txtScore
@@ -67,6 +70,97 @@
             // 
             this.gameTimer.Interval = 20;
             this.gameTimer.Tick += new System.EventHandler(this.mainGameTimerEvent);
+            // 
+            // GameOverText
+            // 
+            this.GameOverText.BackColor = System.Drawing.Color.Black;
+            this.GameOverText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.GameOverText.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.GameOverText.Font = new System.Drawing.Font("Impact", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GameOverText.ForeColor = System.Drawing.Color.Red;
+            this.GameOverText.Location = new System.Drawing.Point(216, 177);
+            this.GameOverText.Name = "GameOverText";
+            this.GameOverText.Size = new System.Drawing.Size(440, 133);
+            this.GameOverText.TabIndex = 12;
+            this.GameOverText.Text = "GAME OVER";
+            this.GameOverText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.GameOverText.Visible = false;
+            // 
+            // newTimer
+            // 
+            this.newTimer.Interval = 20;
+            this.newTimer.Tick += new System.EventHandler(this.mainGameTimerEvent);
+            // 
+            // return_menu
+            // 
+            this.return_menu.BackColor = System.Drawing.Color.Black;
+            this.return_menu.BackgroundImage = global::fighterjetshooting.Properties.Resources.MAINMENU;
+            this.return_menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.return_menu.FlatAppearance.BorderSize = 0;
+            this.return_menu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.ForestGreen;
+            this.return_menu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.ForestGreen;
+            this.return_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.return_menu.Location = new System.Drawing.Point(303, 491);
+            this.return_menu.Name = "return_menu";
+            this.return_menu.Size = new System.Drawing.Size(263, 70);
+            this.return_menu.TabIndex = 15;
+            this.return_menu.UseVisualStyleBackColor = false;
+            this.return_menu.Visible = false;
+            this.return_menu.Click += new System.EventHandler(this.return_menu_Click);
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.BackColor = System.Drawing.Color.Black;
+            this.ExitButton.BackgroundImage = global::fighterjetshooting.Properties.Resources.EXITMENU;
+            this.ExitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ExitButton.FlatAppearance.BorderSize = 0;
+            this.ExitButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.ForestGreen;
+            this.ExitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.ForestGreen;
+            this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ExitButton.Location = new System.Drawing.Point(303, 583);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(263, 70);
+            this.ExitButton.TabIndex = 14;
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Visible = false;
+            this.ExitButton.Click += new System.EventHandler(this.Exit_button);
+            // 
+            // ReplayButton
+            // 
+            this.ReplayButton.BackColor = System.Drawing.Color.Black;
+            this.ReplayButton.BackgroundImage = global::fighterjetshooting.Properties.Resources.REPLAYEND;
+            this.ReplayButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ReplayButton.FlatAppearance.BorderSize = 0;
+            this.ReplayButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.ForestGreen;
+            this.ReplayButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.ForestGreen;
+            this.ReplayButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReplayButton.Location = new System.Drawing.Point(303, 402);
+            this.ReplayButton.Name = "ReplayButton";
+            this.ReplayButton.Size = new System.Drawing.Size(263, 70);
+            this.ReplayButton.TabIndex = 13;
+            this.ReplayButton.UseVisualStyleBackColor = false;
+            this.ReplayButton.Visible = false;
+            this.ReplayButton.Click += new System.EventHandler(this.Replay_button);
+            // 
+            // Heart3
+            // 
+            this.Heart3.Image = global::fighterjetshooting.Properties.Resources.heart_v3;
+            this.Heart3.Location = new System.Drawing.Point(819, 12);
+            this.Heart3.Name = "Heart3";
+            this.Heart3.Size = new System.Drawing.Size(31, 28);
+            this.Heart3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Heart3.TabIndex = 11;
+            this.Heart3.TabStop = false;
+            // 
+            // Heart2
+            // 
+            this.Heart2.Image = global::fighterjetshooting.Properties.Resources.heart_v3;
+            this.Heart2.Location = new System.Drawing.Point(782, 12);
+            this.Heart2.Name = "Heart2";
+            this.Heart2.Size = new System.Drawing.Size(31, 28);
+            this.Heart2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Heart2.TabIndex = 10;
+            this.Heart2.TabStop = false;
             // 
             // Heart1
             // 
@@ -130,44 +224,15 @@
             this.enemyOne.TabStop = false;
             this.enemyOne.Click += new System.EventHandler(this.enemyOne_Click);
             // 
-            // Heart2
-            // 
-            this.Heart2.Image = global::fighterjetshooting.Properties.Resources.heart_v3;
-            this.Heart2.Location = new System.Drawing.Point(782, 12);
-            this.Heart2.Name = "Heart2";
-            this.Heart2.Size = new System.Drawing.Size(31, 28);
-            this.Heart2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Heart2.TabIndex = 10;
-            this.Heart2.TabStop = false;
-            // 
-            // Heart3
-            // 
-            this.Heart3.Image = global::fighterjetshooting.Properties.Resources.heart_v3;
-            this.Heart3.Location = new System.Drawing.Point(819, 12);
-            this.Heart3.Name = "Heart3";
-            this.Heart3.Size = new System.Drawing.Size(31, 28);
-            this.Heart3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Heart3.TabIndex = 11;
-            this.Heart3.TabStop = false;
-            // 
-            // GameOverText
-            // 
-            this.GameOverText.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GameOverText.ForeColor = System.Drawing.Color.Black;
-            this.GameOverText.Location = new System.Drawing.Point(284, 237);
-            this.GameOverText.Name = "GameOverText";
-            this.GameOverText.Size = new System.Drawing.Size(311, 54);
-            this.GameOverText.TabIndex = 12;
-            this.GameOverText.Text = "GAME OVER";
-            this.GameOverText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.GameOverText.Visible = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(892, 773);
+            this.Controls.Add(this.return_menu);
+            this.Controls.Add(this.ExitButton);
+            this.Controls.Add(this.ReplayButton);
             this.Controls.Add(this.GameOverText);
             this.Controls.Add(this.Heart3);
             this.Controls.Add(this.Heart2);
@@ -183,14 +248,14 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
+            ((System.ComponentModel.ISupportInitialize)(this.Heart3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Heart2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Heart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyThree)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bullet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyOne)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Heart2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Heart3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,6 +274,10 @@
         private System.Windows.Forms.PictureBox Heart2;
         private System.Windows.Forms.PictureBox Heart3;
         private System.Windows.Forms.Label GameOverText;
+        private System.Windows.Forms.Button ReplayButton;
+        private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Timer newTimer;
+        private System.Windows.Forms.Button return_menu;
     }
 }
 

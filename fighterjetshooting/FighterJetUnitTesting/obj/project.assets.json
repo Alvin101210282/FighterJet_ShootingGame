@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {
+    ".NETCoreApp,Version=v3.1": {
       "coverlet.collector/1.2.0": {
         "type": "package",
         "build": {
@@ -4687,6 +4687,7 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5650,7 +5651,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": [
+    ".NETCoreApp,Version=v3.1": [
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
@@ -5659,37 +5660,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alvin\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alvin\\Desktop\\DP1\\Distinction Task\\FigtherJet\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Fighter_Jet_ShootingGame-v6\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
       "projectName": "FighterJetUnitTesting",
-      "projectPath": "C:\\Users\\Alvin\\Desktop\\DP1\\Distinction Task\\FigtherJet\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
-      "packagesPath": "C:\\Users\\Alvin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alvin\\Desktop\\DP1\\Distinction Task\\FigtherJet\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_ShootingGame-v6\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_ShootingGame-v6\\fighterjetshooting\\FighterJetUnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Alvin\\Desktop\\DP1\\Distinction Task\\FigtherJet\\FighterJet_ShootingGame\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
-              "projectPath": "C:\\Users\\Alvin\\Desktop\\DP1\\Distinction Task\\FigtherJet\\FighterJet_ShootingGame\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
+            "C:\\Users\\User\\Desktop\\Fighter_Jet_ShootingGame-v6\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_ShootingGame-v6\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
             }
           }
         }
@@ -5701,7 +5702,7 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.0": {
+      "netcoreapp3.1": {
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -5735,7 +5736,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

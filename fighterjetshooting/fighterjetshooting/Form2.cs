@@ -38,17 +38,27 @@ namespace fighterjetshooting
             {
                 Play_button.BackColor = System.Drawing.Color.ForestGreen;
                 Exit_button.BackColor = System.Drawing.Color.Black;
+                scoredisplay.BackColor = System.Drawing.Color.Black;
             }
             else if(keyvalue == 1)
             {
                 Play_button.BackColor = System.Drawing.Color.Black;
                 Exit_button.BackColor = System.Drawing.Color.ForestGreen;
+                scoredisplay.BackColor = System.Drawing.Color.Black;
             }
-            
+            else if (keyvalue == 2)
+            {
+                Play_button.BackColor = System.Drawing.Color.Black;
+                Exit_button.BackColor = System.Drawing.Color.Black;
+                scoredisplay.BackColor = System.Drawing.Color.ForestGreen;
+            }
+
+
         }
 
         private void Play(object sender, EventArgs e)
         {
+            timer1.Stop();
             this.Hide();
             Startgame = true;
         }
@@ -60,20 +70,20 @@ namespace fighterjetshooting
 
         private void PlayButton(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Up)
+            if(e.KeyCode == Keys.Down)
             {
                 if (keyvalue == 0)
                 {
-                    keyvalue = 1;
+                    keyvalue = 2;
                 }
                 else
                 {
                     keyvalue -= 1;
                 }
             }
-            else if(e.KeyCode == Keys.Down)
+            else if(e.KeyCode == Keys.Up)
             {
-                if (keyvalue == 1)
+                if (keyvalue == 2)
                 {
                     keyvalue = 0;
                 }
@@ -82,6 +92,13 @@ namespace fighterjetshooting
                     keyvalue += 1;
                 }
             }
+        }
+
+        private void ScoreBoard(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 form4 = new Form4();
+            form4.ShowDialog();
         }
     }
 }
