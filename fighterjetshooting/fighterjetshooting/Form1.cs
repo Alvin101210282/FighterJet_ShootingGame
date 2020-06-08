@@ -42,6 +42,9 @@ namespace fighterjetshooting
         int temp_speed2;
         int temp_speed3;
 
+        //minion jet
+        bool minion_jet_event = false;
+
         System.Windows.Forms.PictureBox[] powerUps = new System.Windows.Forms.PictureBox[4];
         System.Windows.Forms.PictureBox[] powerUps_icon = new System.Windows.Forms.PictureBox[3];
         
@@ -95,10 +98,14 @@ namespace fighterjetshooting
             if (goLeft == true && player.Left > 0)
             {
                 player.Left -= plyr.PlayerSpeed;
+                minionjet1.Left -= plyr.PlayerSpeed;
+                minionjet2.Left -= plyr.PlayerSpeed;
             }
             if (goRight == true && player.Left < 543)
             {
                 player.Left += plyr.PlayerSpeed;
+                minionjet1.Left += plyr.PlayerSpeed;
+                minionjet2.Left += plyr.PlayerSpeed;
             }
 
             //PLAYER SHOOTING
@@ -106,10 +113,14 @@ namespace fighterjetshooting
             {
                 plyr.BulletSpeed = 40;
                 Bullet.Top -= plyr.BulletSpeed;
+                Bullet2.Top -= plyr.BulletSpeed;
+                Bullet3.Top -= plyr.BulletSpeed;
             }
             else
             {
                 Bullet.Left = -300;
+                Bullet2.Left = -300;
+                Bullet3.Left = -300;
                 plyr.BulletSpeed = 0;
             }
 
@@ -139,11 +150,11 @@ namespace fighterjetshooting
 
             if (time >= 50)
             {
-                time = 0;
                 pow_timer.Stop();
                 rnd_plane = rnd.Next(0, 3);
                 powerUps[rnd_pow].Left = -1000;
                 pow_app = false;
+                time = 0;
 
             }
             //Freeze events
@@ -172,7 +183,7 @@ namespace fighterjetshooting
             }
 
             //ENEMY SPEED
-            if (Bullet.Bounds.IntersectsWith(enemyOne.Bounds))
+            if (Bullet.Bounds.IntersectsWith(enemyOne.Bounds) || Bullet2.Bounds.IntersectsWith(enemyOne.Bounds) || Bullet3.Bounds.IntersectsWith(enemyOne.Bounds))
             {
                 if (pow_app && rnd_plane == 0)
                 {
@@ -183,7 +194,14 @@ namespace fighterjetshooting
                     pow_app = false;
                 }
                 plyr.Score += 1;
-                if (plyr.Score % 10 == 0 && plyr.Score != 0)
+                if (plyr.Score == 100)
+                {
+                    enemy1.EnemySpeed += 1;
+                    minion_jet_pow.Visible = true;
+                    minion_jet_pow.Left = enemyOne.Left;
+                    minion_jet_pow.Top = enemyOne.Top - 20;
+                }
+                else if (plyr.Score % 10 == 0 && plyr.Score != 0)
                 {
                     enemy1.EnemySpeed += 1;
                     if (pow_app == false)
@@ -198,7 +216,7 @@ namespace fighterjetshooting
 
             }
 
-            if (Bullet.Bounds.IntersectsWith(enemyTwo.Bounds))
+            if (Bullet.Bounds.IntersectsWith(enemyTwo.Bounds) || Bullet2.Bounds.IntersectsWith(enemyTwo.Bounds) || Bullet3.Bounds.IntersectsWith(enemyTwo.Bounds))
             {
                 if (pow_app && rnd_plane == 1)
                 {
@@ -209,7 +227,15 @@ namespace fighterjetshooting
                     pow_app = false;
                 }
                 plyr.Score += 1;
-                if (plyr.Score % 10 == 0 && plyr.Score != 0)
+                if (plyr.Score == 100)
+                {
+                    enemy2.EnemySpeed += 1;
+                    minion_jet_pow.Visible = true;
+                    minion_jet_pow.Left = enemyTwo.Left - 20;
+                    minion_jet_pow.Top = enemyTwo.Top - 20;
+
+                }
+                else if (plyr.Score % 10 == 0 && plyr.Score != 0)
                 {
                     enemy2.EnemySpeed += 1;
                     if (pow_app == false)
@@ -224,7 +250,7 @@ namespace fighterjetshooting
 
             }
 
-            if (Bullet.Bounds.IntersectsWith(enemyThree.Bounds))
+            if (Bullet.Bounds.IntersectsWith(enemyThree.Bounds) || Bullet2.Bounds.IntersectsWith(enemyThree.Bounds) || Bullet3.Bounds.IntersectsWith(enemyThree.Bounds))
             {
                 if (pow_app && rnd_plane == 2)
                 {
@@ -235,7 +261,14 @@ namespace fighterjetshooting
                     pow_app = false;
                 }
                 plyr.Score += 1;
-                if (plyr.Score % 10 == 0 && plyr.Score != 0)
+                if (plyr.Score == 100)
+                {
+                    enemy3.EnemySpeed += 1;
+                    minion_jet_pow.Visible = true;
+                    minion_jet_pow.Left = enemyThree.Left - 20;
+                    minion_jet_pow.Top = enemyThree.Top - 20;
+                }
+                else if (plyr.Score % 10 == 0 && plyr.Score != 0)
                 {
                     enemy3.EnemySpeed += 1;
                     if (pow_app == false)
@@ -243,6 +276,7 @@ namespace fighterjetshooting
                         rnd_pow = rnd.Next(0, 4);
                         pow_app = true;
                     }
+
                 }
                 enemyThree.Top = -750;
                 enemyThree.Left = rnd.Next(20, 600);
@@ -251,7 +285,7 @@ namespace fighterjetshooting
             }
 
             //when the bullet shoot on the buff
-            if (Bullet.Bounds.IntersectsWith(atom.Bounds) || Bullet.Bounds.IntersectsWith(freeze.Bounds) || Bullet.Bounds.IntersectsWith(shield.Bounds) || Bullet.Bounds.IntersectsWith(heal.Bounds))
+            if (Bullet.Bounds.IntersectsWith(atom.Bounds) || Bullet.Bounds.IntersectsWith(freeze.Bounds) || Bullet.Bounds.IntersectsWith(shield.Bounds) || Bullet.Bounds.IntersectsWith(heal.Bounds) || Bullet2.Bounds.IntersectsWith(atom.Bounds) || Bullet2.Bounds.IntersectsWith(freeze.Bounds) || Bullet2.Bounds.IntersectsWith(shield.Bounds) || Bullet2.Bounds.IntersectsWith(heal.Bounds) || Bullet3.Bounds.IntersectsWith(heal.Bounds) || Bullet3.Bounds.IntersectsWith(atom.Bounds) || Bullet3.Bounds.IntersectsWith(freeze.Bounds) || Bullet3.Bounds.IntersectsWith(shield.Bounds))
             {
                 pow_timer.Stop();
                 pow_app = false;
@@ -321,6 +355,16 @@ namespace fighterjetshooting
 
 
 
+            }
+
+            if (Bullet.Bounds.IntersectsWith(minion_jet_pow.Bounds))
+            {
+                minion_jet_event = true;
+                minion_jet_pow.Left = -1000;
+                minionjet1.Visible = true;
+                minionjet1.Left = player.Left - 65;
+                minionjet2.Visible = true;
+                minionjet2.Left = player.Left + 90;
             }
 
             //Power up buff icon
@@ -502,6 +546,14 @@ namespace fighterjetshooting
                 shooting = true;
                 Bullet.Top = player.Top + 30;
                 Bullet.Left = player.Left + (player.Width / 2);
+                if (minion_jet_event)
+                {
+                    Bullet2.Top = minionjet1.Top + 30;
+                    Bullet2.Left = minionjet1.Left + (minionjet1.Width / 2);
+
+                    Bullet3.Top = minionjet2.Top + 30;
+                    Bullet3.Left = minionjet2.Left + (minionjet2.Width / 2);
+                }
             }
             if (e.KeyCode == Keys.A)
             {
@@ -577,7 +629,8 @@ namespace fighterjetshooting
             plyr.PlayerHealth = 3;
             plyr.BulletSpeed = 0;
             Bullet.Left = -300;
-
+            Bullet2.Left = -300;
+            Bullet3.Left = -300;
             indexVar = 0;
             healthBar[0] = Heart1;
             healthBar[1] = Heart2;
@@ -602,6 +655,10 @@ namespace fighterjetshooting
             freeze_active = false;
             shield_active = false;
 
+            minion_jet_event = false;
+            minion_jet_pow.Left = -1000;
+            minionjet1.Visible = false;
+            minionjet2.Visible = false;
             txtScore.Text = plyr.Score.ToString();
         }
 

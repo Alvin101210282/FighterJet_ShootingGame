@@ -57,6 +57,11 @@
             this.freeze_pow = new System.Windows.Forms.PictureBox();
             this.pow_timer = new System.Windows.Forms.Timer(this.components);
             this.freeze_timer = new System.Windows.Forms.Timer(this.components);
+            this.minionjet1 = new System.Windows.Forms.PictureBox();
+            this.minion_jet_pow = new System.Windows.Forms.PictureBox();
+            this.Bullet2 = new System.Windows.Forms.PictureBox();
+            this.Bullet3 = new System.Windows.Forms.PictureBox();
+            this.minionjet2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Heart3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Heart2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Heart1)).BeginInit();
@@ -75,6 +80,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.atom_pow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shield_pow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.freeze_pow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minionjet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minion_jet_pow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bullet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bullet3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minionjet2)).BeginInit();
             this.SuspendLayout();
             // 
             // txtScore
@@ -355,12 +365,68 @@
             // 
             this.freeze_timer.Tick += new System.EventHandler(this.freeze_time_event);
             // 
+            // minionjet1
+            // 
+            this.minionjet1.Image = ((System.Drawing.Image)(resources.GetObject("minionjet1.Image")));
+            this.minionjet1.Location = new System.Drawing.Point(226, 695);
+            this.minionjet1.Name = "minionjet1";
+            this.minionjet1.Size = new System.Drawing.Size(110, 98);
+            this.minionjet1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.minionjet1.TabIndex = 28;
+            this.minionjet1.TabStop = false;
+            this.minionjet1.Visible = false;
+            // 
+            // minion_jet_pow
+            // 
+            this.minion_jet_pow.Image = ((System.Drawing.Image)(resources.GetObject("minion_jet_pow.Image")));
+            this.minion_jet_pow.Location = new System.Drawing.Point(23, 436);
+            this.minion_jet_pow.Name = "minion_jet_pow";
+            this.minion_jet_pow.Size = new System.Drawing.Size(69, 70);
+            this.minion_jet_pow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.minion_jet_pow.TabIndex = 30;
+            this.minion_jet_pow.TabStop = false;
+            this.minion_jet_pow.Visible = false;
+            // 
+            // Bullet2
+            // 
+            this.Bullet2.Image = global::fighterjetshooting.Properties.Resources.bullet;
+            this.Bullet2.Location = new System.Drawing.Point(329, 351);
+            this.Bullet2.Name = "Bullet2";
+            this.Bullet2.Size = new System.Drawing.Size(7, 27);
+            this.Bullet2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Bullet2.TabIndex = 31;
+            this.Bullet2.TabStop = false;
+            // 
+            // Bullet3
+            // 
+            this.Bullet3.Image = global::fighterjetshooting.Properties.Resources.bullet;
+            this.Bullet3.Location = new System.Drawing.Point(514, 351);
+            this.Bullet3.Name = "Bullet3";
+            this.Bullet3.Size = new System.Drawing.Size(7, 27);
+            this.Bullet3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Bullet3.TabIndex = 32;
+            this.Bullet3.TabStop = false;
+            // 
+            // minionjet2
+            // 
+            this.minionjet2.Image = ((System.Drawing.Image)(resources.GetObject("minionjet2.Image")));
+            this.minionjet2.Location = new System.Drawing.Point(411, 695);
+            this.minionjet2.Name = "minionjet2";
+            this.minionjet2.Size = new System.Drawing.Size(110, 98);
+            this.minionjet2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.minionjet2.TabIndex = 29;
+            this.minionjet2.TabStop = false;
+            this.minionjet2.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(892, 773);
+            this.Controls.Add(this.Bullet3);
+            this.Controls.Add(this.Bullet2);
+            this.Controls.Add(this.minion_jet_pow);
             this.Controls.Add(this.freeze_pow);
             this.Controls.Add(this.shield_pow);
             this.Controls.Add(this.atom_pow);
@@ -384,6 +450,8 @@
             this.Controls.Add(this.Bullet);
             this.Controls.Add(this.enemyOne);
             this.Controls.Add(this.txtScore);
+            this.Controls.Add(this.minionjet1);
+            this.Controls.Add(this.minionjet2);
             this.Name = "Form1";
             this.Text = "Fighter Jet Shooting Game";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -407,6 +475,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.atom_pow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shield_pow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.freeze_pow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minionjet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minion_jet_pow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bullet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bullet3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.minionjet2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -441,6 +514,11 @@
         private System.Windows.Forms.PictureBox freeze_pow;
         private System.Windows.Forms.Timer pow_timer;
         private System.Windows.Forms.Timer freeze_timer;
+        private System.Windows.Forms.PictureBox minionjet1;
+        private System.Windows.Forms.PictureBox minion_jet_pow;
+        private System.Windows.Forms.PictureBox Bullet2;
+        private System.Windows.Forms.PictureBox Bullet3;
+        private System.Windows.Forms.PictureBox minionjet2;
     }
 }
 
