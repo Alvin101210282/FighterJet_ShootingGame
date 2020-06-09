@@ -124,17 +124,20 @@
   <data name="EXITMENU" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EXITMENU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SCOREBOARD1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SCOREBOARD1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="health_label3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_label3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="15ac43e40bd71bbd565d928a668c61ef-700" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\15ac43e40bd71bbd565d928a668c61ef-700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="USERNAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\USERNAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="player" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\player.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="heart v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heart v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ENTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ENTER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PLAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PLAY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,20 +145,29 @@
   <data name="SCOREMENU" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SCOREMENU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="health_label2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_label2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tenor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tenor.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="heart v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\heart v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SCOREBOARD1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SCOREBOARD1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAINMENU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAINMENU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EXIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EXIT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="health_label4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_label4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="512x512bb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\512x512bb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ace-combat-7-skies-unknown-hands-on-tokyo-game-show-2018" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ace-combat-7-skies-unknown-hands-on-tokyo-game-show-2018.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="boss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PLAY2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PLAY2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,17 +187,20 @@
   <data name="atomicbomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\atomicbomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="USERNAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\USERNAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ENTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ENTER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="health_label1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_label1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SCOREBOARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SCOREBOARD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sky1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sky1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ace-combat-7-skies-unknown-hands-on-tokyo-game-show-2018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ace-combat-7-skies-unknown-hands-on-tokyo-game-show-2018.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="health_label5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_label5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="health_label0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_label0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fighterjetbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fighterjetbg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +208,14 @@
   <data name="enemy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enemy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="skull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bullet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bullet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rocket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rocket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="heart v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\heart v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,10 +223,16 @@
   <data name="REPLAYEND" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\REPLAYEND.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15ac43e40bd71bbd565d928a668c61ef-700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15ac43e40bd71bbd565d928a668c61ef-700.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="REPLAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\REPLAY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MAINMENU" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MAINMENU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="health_label6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\health_label6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

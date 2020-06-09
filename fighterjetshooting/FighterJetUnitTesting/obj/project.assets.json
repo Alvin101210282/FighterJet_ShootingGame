@@ -5666,11 +5666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DP1\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
       "projectName": "FighterJetUnitTesting",
-      "projectPath": "C:\\DP1\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\DP1\\FighterJet_ShootingGame\\fighterjetshooting\\FighterJetUnitTesting\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5689,8 +5689,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\DP1\\FighterJet_ShootingGame\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
-              "projectPath": "C:\\DP1\\FighterJet_ShootingGame\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
+            "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
             }
           }
         }

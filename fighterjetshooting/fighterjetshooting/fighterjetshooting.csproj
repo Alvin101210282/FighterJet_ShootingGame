@@ -206,5 +206,35 @@
   <ItemGroup>
     <None Include="Resources\MAINMENU.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_label0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_label1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_label2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_label3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_label4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_label5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health_label6.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

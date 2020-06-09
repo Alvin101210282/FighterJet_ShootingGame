@@ -182,3 +182,53 @@ C:\DP1\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\f
 C:\DP1\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
 C:\DP1\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
 C:\DP1\FighterJet_ShootingGame\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.resx
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.resx
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.resx
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.resx
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.cs
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.Designer.cs
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.cs
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.Designer.cs
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.cs
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.Designer.cs
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.cs
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.Designer.cs
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form4.resources
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+C:\Users\User\Desktop\Fighter Jet Shooting Game-- Boss Fight1\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.resx
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.resx
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.resx
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.resx
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.cs
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.Designer.cs
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.cs
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.Designer.cs
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.cs
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.Designer.cs
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.cs
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.Designer.cs
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form4.resources
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
