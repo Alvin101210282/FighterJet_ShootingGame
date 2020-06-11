@@ -13,6 +13,8 @@ namespace fighterjetshooting
         private int playerSpeed;
         private int bulletSpeed;
         private string username;
+        private string powerup;
+        private int attack;
 
         public Player()
         {
@@ -21,6 +23,7 @@ namespace fighterjetshooting
             playerSpeed = 20;
             bulletSpeed = 0;
             username = "Player1";
+            attack = 1;
 
         }
 
@@ -60,6 +63,38 @@ namespace fighterjetshooting
             {
                 playerHealth += 1;
             }
+            else if (pow.PowerType == "atom")
+            {
+                powerup = "atom";
+            }
+            else if (pow.PowerType == "freeze")
+            {
+                powerup = "freeze";
+            }
+            else if (pow.PowerType == "shield")
+            {
+                powerup = "shield";
+            }
+            else if (pow.PowerType == "minion_jet")
+            {
+                powerup = "minion_jet";
+            }
+            else if (pow.PowerType == "turret")
+            {
+                powerup = "turret";
+            }
+        }
+
+        public string PowerUps
+        {
+            get { return powerup; }
+            set { powerup = value; }
+        }
+
+        public int Attack
+        {
+            get { return attack; }
+            set { attack = value; }
         }
     }
 }

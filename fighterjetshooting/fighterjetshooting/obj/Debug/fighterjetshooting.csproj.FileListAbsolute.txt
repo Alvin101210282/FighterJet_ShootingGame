@@ -232,3 +232,191 @@ C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGa
 C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
 C:\Users\User\Desktop\Fighter_Jet_Shooting_Game_Final_Boss\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.resx
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.resx
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.resx
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.resx
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.cs
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.Designer.cs
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.cs
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.Designer.cs
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.cs
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.Designer.cs
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.cs
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.Designer.cs
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form4.resources
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+D:\Downloads\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form5.resources
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.resx
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.resx
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.resx
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.resx
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.cs
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.Designer.cs
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.cs
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.Designer.cs
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.cs
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.Designer.cs
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.cs
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.Designer.cs
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form4.resources
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form5.resources
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (2)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form6.resources
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.resx
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.resx
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.resx
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.resx
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.cs
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.Designer.cs
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.cs
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.Designer.cs
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.cs
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.Designer.cs
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.cs
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.Designer.cs
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form4.resources
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form5.resources
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form6.resources
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (3)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.resx
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.resx
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.resx
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.resx
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.cs
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.Designer.cs
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.cs
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.Designer.cs
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.cs
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.Designer.cs
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.cs
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.Designer.cs
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form4.resources
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form5.resources
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form6.resources
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (4)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.resx
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.resx
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.resx
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.resx
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.cs
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.Designer.cs
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.cs
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.Designer.cs
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.cs
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.Designer.cs
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.cs
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.Designer.cs
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form4.resources
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form5.resources
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form6.resources
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (5)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.resx
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.resx
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.resx
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.resx
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.cs
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.Designer.cs
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.cs
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.Designer.cs
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.cs
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.Designer.cs
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.cs
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.Designer.cs
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form4.resources
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form5.resources
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form6.resources
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (6)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.resx
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.resx
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.resx
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.resx
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.cs
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form1.Designer.cs
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.cs
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form2.Designer.cs
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.cs
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form3.Designer.cs
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.cs
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\Form4.Designer.cs
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe.config
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\bin\Debug\fighterjetshooting.pdb
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csprojAssemblyReference.cache
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form1.resources
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form2.resources
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form3.resources
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form4.resources
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form5.resources
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Form6.resources
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.Properties.Resources.resources
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.GenerateResource.cache
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.csproj.CoreCompileInputs.cache
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.exe
+D:\Downloads\New folder (7)\FighterJet_ShootingGame-master\fighterjetshooting\fighterjetshooting\obj\Debug\fighterjetshooting.pdb

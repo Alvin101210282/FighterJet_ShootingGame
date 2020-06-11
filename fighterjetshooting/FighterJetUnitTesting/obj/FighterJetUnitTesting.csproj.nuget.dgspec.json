@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj": {}
+    "D:\\Downloads\\New folder (5)\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
+    "D:\\Downloads\\New folder (5)\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj",
+        "projectUniqueName": "D:\\Downloads\\New folder (5)\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj",
         "projectName": "fighterjetshooting",
-        "projectPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
+        "projectPath": "D:\\Downloads\\New folder (5)\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj": {
+    "D:\\Downloads\\New folder (5)\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
+        "projectUniqueName": "D:\\Downloads\\New folder (5)\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
         "projectName": "FighterJetUnitTesting",
-        "projectPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
+        "projectPath": "D:\\Downloads\\New folder (5)\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\FighterJetUnitTesting.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\obj\\",
+        "outputPath": "D:\\Downloads\\New folder (5)\\FighterJet_ShootingGame-master\\fighterjetshooting\\FighterJetUnitTesting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,8 +40,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Fighter_Jet_Shooting_Game_Final_Boss\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
+              "D:\\Downloads\\New folder (5)\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj": {
+                "projectPath": "D:\\Downloads\\New folder (5)\\FighterJet_ShootingGame-master\\fighterjetshooting\\fighterjetshooting\\fighterjetshooting.csproj"
               }
             }
           }
@@ -101,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

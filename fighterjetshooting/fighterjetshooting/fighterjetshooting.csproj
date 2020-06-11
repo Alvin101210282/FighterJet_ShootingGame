@@ -79,10 +79,23 @@
       <DependentUpon>Form4.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Player.cs" />
     <Compile Include="PowerUp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scoreboard.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -98,6 +111,12 @@
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -235,6 +254,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\health_label6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOWTOPLAY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOWTOPLAY1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instructions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowkeys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atomicButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter_htp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freeze_powUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heal_powUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield_powUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turret_pow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minion_jet_pow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POWERUPS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\victory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\victory_pose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CREDITS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CREDITS1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowkeys-1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

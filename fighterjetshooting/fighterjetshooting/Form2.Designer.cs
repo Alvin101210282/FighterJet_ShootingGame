@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.howToPlay_button = new System.Windows.Forms.Button();
             this.scoredisplay = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Exit_button = new System.Windows.Forms.Button();
@@ -43,6 +44,25 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.Main_menu);
             // 
+            // howToPlay_button
+            // 
+            this.howToPlay_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.howToPlay_button.BackColor = System.Drawing.Color.Black;
+            this.howToPlay_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.howToPlay_button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.howToPlay_button.FlatAppearance.BorderSize = 0;
+            this.howToPlay_button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.howToPlay_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.ForestGreen;
+            this.howToPlay_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.howToPlay_button.Font = new System.Drawing.Font("Impact", 6.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.howToPlay_button.Image = global::fighterjetshooting.Properties.Resources.HOWTOPLAY1;
+            this.howToPlay_button.Location = new System.Drawing.Point(319, 318);
+            this.howToPlay_button.Name = "howToPlay_button";
+            this.howToPlay_button.Size = new System.Drawing.Size(251, 82);
+            this.howToPlay_button.TabIndex = 2;
+            this.howToPlay_button.UseVisualStyleBackColor = false;
+            this.howToPlay_button.Click += new System.EventHandler(this.howtoplayButton);
+            // 
             // scoredisplay
             // 
             this.scoredisplay.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -55,10 +75,10 @@
             this.scoredisplay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.scoredisplay.Font = new System.Drawing.Font("Impact", 6.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.scoredisplay.Image = global::fighterjetshooting.Properties.Resources.HIGHSCOREMENU;
-            this.scoredisplay.Location = new System.Drawing.Point(319, 413);
+            this.scoredisplay.Location = new System.Drawing.Point(319, 421);
             this.scoredisplay.Name = "scoredisplay";
             this.scoredisplay.Size = new System.Drawing.Size(251, 82);
-            this.scoredisplay.TabIndex = 2;
+            this.scoredisplay.TabIndex = 3;
             this.scoredisplay.UseVisualStyleBackColor = false;
             this.scoredisplay.Click += new System.EventHandler(this.ScoreBoard);
             // 
@@ -87,7 +107,7 @@
             this.Exit_button.Location = new System.Drawing.Point(319, 523);
             this.Exit_button.Name = "Exit_button";
             this.Exit_button.Size = new System.Drawing.Size(251, 82);
-            this.Exit_button.TabIndex = 3;
+            this.Exit_button.TabIndex = 4;
             this.Exit_button.UseVisualStyleBackColor = false;
             this.Exit_button.Click += new System.EventHandler(this.Exit);
             // 
@@ -103,7 +123,7 @@
             this.Play_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Play_button.Font = new System.Drawing.Font("Impact", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Play_button.Image = global::fighterjetshooting.Properties.Resources.PLAYMENU;
-            this.Play_button.Location = new System.Drawing.Point(319, 308);
+            this.Play_button.Location = new System.Drawing.Point(319, 216);
             this.Play_button.Name = "Play_button";
             this.Play_button.Size = new System.Drawing.Size(251, 82);
             this.Play_button.TabIndex = 1;
@@ -126,6 +146,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(892, 773);
+            this.Controls.Add(this.howToPlay_button);
             this.Controls.Add(this.scoredisplay);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Exit_button);
@@ -133,6 +154,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.PlayButton);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -148,5 +170,6 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Button scoredisplay;
+        public System.Windows.Forms.Button howToPlay_button;
     }
 }

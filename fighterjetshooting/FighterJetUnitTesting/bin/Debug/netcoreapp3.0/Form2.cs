@@ -19,12 +19,8 @@ namespace fighterjetshooting
         {
             InitializeComponent();
             this.KeyPreview = true;
+            Startgame = false;
             timer1.Start();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -39,18 +35,28 @@ namespace fighterjetshooting
                 Play_button.BackColor = System.Drawing.Color.ForestGreen;
                 Exit_button.BackColor = System.Drawing.Color.Black;
                 scoredisplay.BackColor = System.Drawing.Color.Black;
+                howToPlay_button.BackColor = System.Drawing.Color.Black;
             }
             else if(keyvalue == 1)
             {
                 Play_button.BackColor = System.Drawing.Color.Black;
-                Exit_button.BackColor = System.Drawing.Color.ForestGreen;
+                Exit_button.BackColor = System.Drawing.Color.Black;
                 scoredisplay.BackColor = System.Drawing.Color.Black;
+                howToPlay_button.BackColor = System.Drawing.Color.ForestGreen;
             }
             else if (keyvalue == 2)
             {
                 Play_button.BackColor = System.Drawing.Color.Black;
                 Exit_button.BackColor = System.Drawing.Color.Black;
                 scoredisplay.BackColor = System.Drawing.Color.ForestGreen;
+                howToPlay_button.BackColor = System.Drawing.Color.Black;
+            }
+            else if (keyvalue == 3)
+            {
+                Play_button.BackColor = System.Drawing.Color.Black;
+                Exit_button.BackColor = System.Drawing.Color.ForestGreen;
+                scoredisplay.BackColor = System.Drawing.Color.Black;
+                howToPlay_button.BackColor = System.Drawing.Color.Black;
             }
 
 
@@ -70,20 +76,20 @@ namespace fighterjetshooting
 
         private void PlayButton(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Down)
+            if(e.KeyCode == Keys.Up)
             {
                 if (keyvalue == 0)
                 {
-                    keyvalue = 2;
+                    keyvalue = 3;
                 }
                 else
                 {
                     keyvalue -= 1;
                 }
             }
-            else if(e.KeyCode == Keys.Up)
+            else if(e.KeyCode == Keys.Down)
             {
-                if (keyvalue == 2)
+                if (keyvalue == 3)
                 {
                     keyvalue = 0;
                 }
@@ -99,6 +105,21 @@ namespace fighterjetshooting
             this.Hide();
             Form4 form4 = new Form4();
             form4.ShowDialog();
+        }
+
+        private void howtoplayButton(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form5 form5 = new Form5();
+            form5.ShowDialog();
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
         }
     }
 }

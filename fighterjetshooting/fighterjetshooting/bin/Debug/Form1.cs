@@ -17,6 +17,7 @@ namespace fighterjetshooting
         public static string dataPath = Path.Combine(Directory.GetCurrentDirectory(), "userData.txt"); // Directory of data file
         Form2 form2 = new Form2();
         Form3 form3 = new Form3();
+        Form6 form6 = new Form6();
         bool goLeft, goRight, shooting;
         Player plyr = new Player();
         Enemy enemy1 = new Enemy();
@@ -62,6 +63,9 @@ namespace fighterjetshooting
         //Atomic Bomb Explosion
         int ex_time = 0;
 
+        //arrow keys navigation for button function
+        int buttonvalue = 0;
+
         System.Windows.Forms.PictureBox[] powerUps = new System.Windows.Forms.PictureBox[4];
         System.Windows.Forms.PictureBox[] powerUps_icon = new System.Windows.Forms.PictureBox[3];
         
@@ -102,19 +106,23 @@ namespace fighterjetshooting
             enemyTwo.Top += enemy2.EnemySpeed;
             enemyThree.Top += enemy3.EnemySpeed;
 
+
+            
             if (plyr.PlayerHealth > 0)
             {
-                if(Boss.EnemyHealth == 0)
+                if (Boss.EnemyHealth == 0)
                 {
-                    gameOver();
+                    this.Visible = false;
+                    Boss.EnemyHealth = 100;
+                    form6.ShowDialog();
                     this.KeyPreview = true;
                 }
                 checkEnemyPlane();
             }
             else
             {
-                gameOver();
                 this.KeyPreview = true;
+                gameOver();
             }
 
             //PLAYER MOVEMENT
@@ -888,14 +896,15 @@ namespace fighterjetshooting
             return_menu.Visible = false;
             GameOverText.Visible = false;
             ReplayButton.Visible = false;
-            ExitButton.Visible = false;
             resetGame();
         }
 
+        /*
         private void Exit_button(object sender, EventArgs e)
         {
             Application.Exit();
         }
+        */
 
         private void keyisup(object sender, KeyEventArgs e)
         {
@@ -968,6 +977,47 @@ namespace fighterjetshooting
                     icon_index = temp_atom;
                     explosion_timer.Start();
                 }
+            }
+
+            if (e.KeyCode == Keys.Up)
+            {
+                if (buttonvalue == 0)
+                {
+                    buttonvalue = 1;
+                }
+                else
+                {
+                    buttonvalue -= 1;
+                }
+            }
+            if (e.KeyCode == Keys.Down)
+            {
+                if (buttonvalue == 1)
+                {
+                    buttonvalue = 0;
+                }
+                else
+                {
+                    buttonvalue += 1;
+                }
+            }
+            if (e.KeyCode == Keys.Enter)
+            {
+                if(buttonvalue == 0)
+                {
+                    gameTimer.Enabled = true;
+                    return_menu.Visible = false;
+                    GameOverText.Visible = false;
+                    ReplayButton.Visible = false;
+                    resetGame();
+                }
+                else if(buttonvalue == 1)
+                {
+                    this.Hide();
+                    Form1 form1 = new Form1();
+                    form1.ShowDialog();
+                }
+                
             }
         }
 
@@ -1066,9 +1116,9 @@ namespace fighterjetshooting
 
         private void return_menu_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form2 form2 = new Form2();
-            form2.ShowDialog();
+            this.Dispose();
+            Form1 form1 = new Form1();
+            form1.ShowDialog();
         }
 
         private void appear_time(object sender, EventArgs e)
@@ -1121,17 +1171,30 @@ namespace fighterjetshooting
             ex_time += 1;
         }
 
+        private void replay_navigation(object sender, EventArgs e)
+        {
+            if (buttonvalue == 0)
+            {
+                ReplayButton.BackColor = System.Drawing.Color.ForestGreen;
+                return_menu.BackColor = System.Drawing.Color.Black;
+            }
+            else if (buttonvalue == 1)
+            {
+                ReplayButton.BackColor = System.Drawing.Color.Black;
+                return_menu.BackColor = System.Drawing.Color.ForestGreen;
+            }
+        }
+
         //GAME OVER 
         private void gameOver()
         {
             health_label1.Visible = false;
-            health_label0.Visible = true;
             gameTimer.Stop();
             return_menu.Visible = true;
             GameOverText.Visible = true;
             ReplayButton.Visible = true;
-            ExitButton.Visible = true;
             CollectScore();
+            replayTimer.Start();
         }
 
         private void CollectScore()

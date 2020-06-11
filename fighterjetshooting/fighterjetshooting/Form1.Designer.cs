@@ -33,16 +33,20 @@
             this.txtScore = new System.Windows.Forms.Label();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
             this.GameOverText = new System.Windows.Forms.Label();
-            this.newTimer = new System.Windows.Forms.Timer(this.components);
+            this.replayTimer = new System.Windows.Forms.Timer(this.components);
             this.pow_timer = new System.Windows.Forms.Timer(this.components);
             this.freeze_timer = new System.Windows.Forms.Timer(this.components);
             this.rocket_timer = new System.Windows.Forms.Timer(this.components);
             this.turret_timer = new System.Windows.Forms.Timer(this.components);
+            this.explosion_timer = new System.Windows.Forms.Timer(this.components);
+            this.explode3 = new System.Windows.Forms.PictureBox();
+            this.explode2 = new System.Windows.Forms.PictureBox();
+            this.explode1 = new System.Windows.Forms.PictureBox();
             this.health_label6 = new System.Windows.Forms.PictureBox();
             this.health_label5 = new System.Windows.Forms.PictureBox();
             this.health_label4 = new System.Windows.Forms.PictureBox();
-            this.health_label2 = new System.Windows.Forms.PictureBox();
             this.health_label3 = new System.Windows.Forms.PictureBox();
+            this.health_label2 = new System.Windows.Forms.PictureBox();
             this.health_label1 = new System.Windows.Forms.PictureBox();
             this.health_label0 = new System.Windows.Forms.PictureBox();
             this.turret_bullet = new System.Windows.Forms.PictureBox();
@@ -61,7 +65,6 @@
             this.atom = new System.Windows.Forms.PictureBox();
             this.freeze = new System.Windows.Forms.PictureBox();
             this.return_menu = new System.Windows.Forms.Button();
-            this.ExitButton = new System.Windows.Forms.Button();
             this.ReplayButton = new System.Windows.Forms.Button();
             this.Heart3 = new System.Windows.Forms.PictureBox();
             this.Heart2 = new System.Windows.Forms.PictureBox();
@@ -79,20 +82,19 @@
             this.rocket_order1 = new System.Windows.Forms.PictureBox();
             this.rocket1 = new System.Windows.Forms.PictureBox();
             this.turret = new System.Windows.Forms.PictureBox();
-            this.enemyOne = new System.Windows.Forms.PictureBox();
-            this.enemyTwo = new System.Windows.Forms.PictureBox();
-            this.enemyThree = new System.Windows.Forms.PictureBox();
             this.boss_icon = new System.Windows.Forms.PictureBox();
             this.boss1 = new System.Windows.Forms.PictureBox();
-            this.explode1 = new System.Windows.Forms.PictureBox();
-            this.explode2 = new System.Windows.Forms.PictureBox();
-            this.explode3 = new System.Windows.Forms.PictureBox();
-            this.explosion_timer = new System.Windows.Forms.Timer(this.components);
+            this.enemyThree = new System.Windows.Forms.PictureBox();
+            this.enemyTwo = new System.Windows.Forms.PictureBox();
+            this.enemyOne = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.explode3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.explode2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.explode1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.health_label2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.health_label2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.turret_bullet)).BeginInit();
@@ -126,14 +128,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.rocket_order1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rocket1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.turret)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.enemyOne)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.enemyThree)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.boss_icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.boss1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.explode1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.explode2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.explode3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyThree)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyOne)).BeginInit();
             this.SuspendLayout();
             // 
             // txtScore
@@ -168,10 +167,10 @@
             this.GameOverText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.GameOverText.Visible = false;
             // 
-            // newTimer
+            // replayTimer
             // 
-            this.newTimer.Interval = 20;
-            this.newTimer.Tick += new System.EventHandler(this.mainGameTimerEvent);
+            this.replayTimer.Interval = 20;
+            this.replayTimer.Tick += new System.EventHandler(this.replay_navigation);
             // 
             // pow_timer
             // 
@@ -188,6 +187,43 @@
             // turret_timer
             // 
             this.turret_timer.Tick += new System.EventHandler(this.turret_shooting_timing);
+            // 
+            // explosion_timer
+            // 
+            this.explosion_timer.Tick += new System.EventHandler(this.explode_time);
+            // 
+            // explode3
+            // 
+            this.explode3.Image = ((System.Drawing.Image)(resources.GetObject("explode3.Image")));
+            this.explode3.Location = new System.Drawing.Point(625, 332);
+            this.explode3.Name = "explode3";
+            this.explode3.Size = new System.Drawing.Size(100, 85);
+            this.explode3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.explode3.TabIndex = 56;
+            this.explode3.TabStop = false;
+            this.explode3.Visible = false;
+            // 
+            // explode2
+            // 
+            this.explode2.Image = ((System.Drawing.Image)(resources.GetObject("explode2.Image")));
+            this.explode2.Location = new System.Drawing.Point(387, 317);
+            this.explode2.Name = "explode2";
+            this.explode2.Size = new System.Drawing.Size(100, 85);
+            this.explode2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.explode2.TabIndex = 55;
+            this.explode2.TabStop = false;
+            this.explode2.Visible = false;
+            // 
+            // explode1
+            // 
+            this.explode1.Image = ((System.Drawing.Image)(resources.GetObject("explode1.Image")));
+            this.explode1.Location = new System.Drawing.Point(169, 313);
+            this.explode1.Name = "explode1";
+            this.explode1.Size = new System.Drawing.Size(100, 85);
+            this.explode1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.explode1.TabIndex = 54;
+            this.explode1.TabStop = false;
+            this.explode1.Visible = false;
             // 
             // health_label6
             // 
@@ -223,17 +259,6 @@
             this.health_label4.TabStop = false;
             this.health_label4.Click += new System.EventHandler(this.health_label4_Click);
             // 
-            // health_label2
-            // 
-            this.health_label2.Image = global::fighterjetshooting.Properties.Resources.health_label2;
-            this.health_label2.Location = new System.Drawing.Point(338, 9);
-            this.health_label2.Name = "health_label2";
-            this.health_label2.Size = new System.Drawing.Size(219, 42);
-            this.health_label2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.health_label2.TabIndex = 50;
-            this.health_label2.TabStop = false;
-            this.health_label2.Visible = false;
-            // 
             // health_label3
             // 
             this.health_label3.Image = global::fighterjetshooting.Properties.Resources.health_label3;
@@ -244,6 +269,17 @@
             this.health_label3.TabIndex = 49;
             this.health_label3.TabStop = false;
             this.health_label3.Visible = false;
+            // 
+            // health_label2
+            // 
+            this.health_label2.Image = global::fighterjetshooting.Properties.Resources.health_label2;
+            this.health_label2.Location = new System.Drawing.Point(338, 9);
+            this.health_label2.Name = "health_label2";
+            this.health_label2.Size = new System.Drawing.Size(219, 42);
+            this.health_label2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.health_label2.TabIndex = 50;
+            this.health_label2.TabStop = false;
+            this.health_label2.Visible = false;
             // 
             // health_label1
             // 
@@ -433,27 +469,10 @@
             this.return_menu.Location = new System.Drawing.Point(303, 491);
             this.return_menu.Name = "return_menu";
             this.return_menu.Size = new System.Drawing.Size(263, 70);
-            this.return_menu.TabIndex = 15;
+            this.return_menu.TabIndex = 2;
             this.return_menu.UseVisualStyleBackColor = false;
             this.return_menu.Visible = false;
             this.return_menu.Click += new System.EventHandler(this.return_menu_Click);
-            // 
-            // ExitButton
-            // 
-            this.ExitButton.BackColor = System.Drawing.Color.Black;
-            this.ExitButton.BackgroundImage = global::fighterjetshooting.Properties.Resources.EXITMENU;
-            this.ExitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ExitButton.FlatAppearance.BorderSize = 0;
-            this.ExitButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.ForestGreen;
-            this.ExitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.ForestGreen;
-            this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ExitButton.Location = new System.Drawing.Point(303, 583);
-            this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(263, 70);
-            this.ExitButton.TabIndex = 14;
-            this.ExitButton.UseVisualStyleBackColor = false;
-            this.ExitButton.Visible = false;
-            this.ExitButton.Click += new System.EventHandler(this.Exit_button);
             // 
             // ReplayButton
             // 
@@ -467,7 +486,7 @@
             this.ReplayButton.Location = new System.Drawing.Point(303, 402);
             this.ReplayButton.Name = "ReplayButton";
             this.ReplayButton.Size = new System.Drawing.Size(263, 70);
-            this.ReplayButton.TabIndex = 13;
+            this.ReplayButton.TabIndex = 1;
             this.ReplayButton.UseVisualStyleBackColor = false;
             this.ReplayButton.Visible = false;
             this.ReplayButton.Click += new System.EventHandler(this.Replay_button);
@@ -640,37 +659,6 @@
             this.turret.TabStop = false;
             this.turret.Visible = false;
             // 
-            // enemyOne
-            // 
-            this.enemyOne.Image = global::fighterjetshooting.Properties.Resources.enemy;
-            this.enemyOne.Location = new System.Drawing.Point(169, 313);
-            this.enemyOne.Name = "enemyOne";
-            this.enemyOne.Size = new System.Drawing.Size(100, 85);
-            this.enemyOne.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.enemyOne.TabIndex = 0;
-            this.enemyOne.TabStop = false;
-            this.enemyOne.Click += new System.EventHandler(this.enemyOne_Click);
-            // 
-            // enemyTwo
-            // 
-            this.enemyTwo.Image = global::fighterjetshooting.Properties.Resources.enemy;
-            this.enemyTwo.Location = new System.Drawing.Point(387, 317);
-            this.enemyTwo.Name = "enemyTwo";
-            this.enemyTwo.Size = new System.Drawing.Size(100, 85);
-            this.enemyTwo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.enemyTwo.TabIndex = 7;
-            this.enemyTwo.TabStop = false;
-            // 
-            // enemyThree
-            // 
-            this.enemyThree.Image = global::fighterjetshooting.Properties.Resources.enemy;
-            this.enemyThree.Location = new System.Drawing.Point(625, 332);
-            this.enemyThree.Name = "enemyThree";
-            this.enemyThree.Size = new System.Drawing.Size(100, 85);
-            this.enemyThree.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.enemyThree.TabIndex = 6;
-            this.enemyThree.TabStop = false;
-            // 
             // boss_icon
             // 
             this.boss_icon.Image = global::fighterjetshooting.Properties.Resources.skull;
@@ -693,42 +681,36 @@
             this.boss1.TabIndex = 45;
             this.boss1.TabStop = false;
             // 
-            // explode1
+            // enemyThree
             // 
-            this.explode1.Image = ((System.Drawing.Image)(resources.GetObject("explode1.Image")));
-            this.explode1.Location = new System.Drawing.Point(169, 313);
-            this.explode1.Name = "explode1";
-            this.explode1.Size = new System.Drawing.Size(100, 85);
-            this.explode1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.explode1.TabIndex = 54;
-            this.explode1.TabStop = false;
-            this.explode1.Visible = false;
+            this.enemyThree.Image = global::fighterjetshooting.Properties.Resources.enemy;
+            this.enemyThree.Location = new System.Drawing.Point(625, 332);
+            this.enemyThree.Name = "enemyThree";
+            this.enemyThree.Size = new System.Drawing.Size(100, 85);
+            this.enemyThree.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.enemyThree.TabIndex = 6;
+            this.enemyThree.TabStop = false;
             // 
-            // explode2
+            // enemyTwo
             // 
-            this.explode2.Image = ((System.Drawing.Image)(resources.GetObject("explode2.Image")));
-            this.explode2.Location = new System.Drawing.Point(387, 317);
-            this.explode2.Name = "explode2";
-            this.explode2.Size = new System.Drawing.Size(100, 85);
-            this.explode2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.explode2.TabIndex = 55;
-            this.explode2.TabStop = false;
-            this.explode2.Visible = false;
+            this.enemyTwo.Image = global::fighterjetshooting.Properties.Resources.enemy;
+            this.enemyTwo.Location = new System.Drawing.Point(387, 317);
+            this.enemyTwo.Name = "enemyTwo";
+            this.enemyTwo.Size = new System.Drawing.Size(100, 85);
+            this.enemyTwo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.enemyTwo.TabIndex = 7;
+            this.enemyTwo.TabStop = false;
             // 
-            // explode3
+            // enemyOne
             // 
-            this.explode3.Image = ((System.Drawing.Image)(resources.GetObject("explode3.Image")));
-            this.explode3.Location = new System.Drawing.Point(625, 332);
-            this.explode3.Name = "explode3";
-            this.explode3.Size = new System.Drawing.Size(100, 85);
-            this.explode3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.explode3.TabIndex = 56;
-            this.explode3.TabStop = false;
-            this.explode3.Visible = false;
-            // 
-            // explosion_timer
-            // 
-            this.explosion_timer.Tick += new System.EventHandler(this.explode_time);
+            this.enemyOne.Image = global::fighterjetshooting.Properties.Resources.enemy;
+            this.enemyOne.Location = new System.Drawing.Point(169, 313);
+            this.enemyOne.Name = "enemyOne";
+            this.enemyOne.Size = new System.Drawing.Size(100, 85);
+            this.enemyOne.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.enemyOne.TabIndex = 0;
+            this.enemyOne.TabStop = false;
+            this.enemyOne.Click += new System.EventHandler(this.enemyOne_Click);
             // 
             // Form1
             // 
@@ -762,7 +744,6 @@
             this.Controls.Add(this.atom);
             this.Controls.Add(this.freeze);
             this.Controls.Add(this.return_menu);
-            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.ReplayButton);
             this.Controls.Add(this.Heart3);
             this.Controls.Add(this.Heart2);
@@ -789,14 +770,18 @@
             this.Controls.Add(this.enemyOne);
             this.Name = "Form1";
             this.Text = "Fighter Jet Shooting Game";
+            //this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
+            ((System.ComponentModel.ISupportInitialize)(this.explode3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.explode2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.explode1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.health_label2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.health_label2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.health_label0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.turret_bullet)).EndInit();
@@ -830,14 +815,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.rocket_order1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rocket1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.turret)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.enemyOne)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.enemyThree)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.boss_icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.boss1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.explode1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.explode2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.explode3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyThree)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyTwo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enemyOne)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -857,8 +839,7 @@
         private System.Windows.Forms.PictureBox Heart3;
         private System.Windows.Forms.Label GameOverText;
         private System.Windows.Forms.Button ReplayButton;
-        private System.Windows.Forms.Button ExitButton;
-        private System.Windows.Forms.Timer newTimer;
+        private System.Windows.Forms.Timer replayTimer;
         private System.Windows.Forms.Button return_menu;
         private System.Windows.Forms.PictureBox freeze;
         private System.Windows.Forms.PictureBox atom;

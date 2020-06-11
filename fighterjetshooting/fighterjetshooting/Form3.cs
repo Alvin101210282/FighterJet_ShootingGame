@@ -45,5 +45,13 @@ namespace fighterjetshooting
                 Form2.Startgame = true;
             }
         }
+
+        private void Form3_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
