@@ -51,13 +51,13 @@ namespace fighterjetshooting
             set { bulletType = value; }
         }
 
-        public int DeductHealth(Enemy enemy, Player player)
+        public int DeductHealth(Player player)
         {
-            while (enemy.EnemyHealth != 0)
+            while (enemyHealth != 0)
             {
-                enemy.EnemyHealth -= player.Attack;
+                enemyHealth -= player.Attack;
             }
-            return enemy.EnemyHealth;
+            return enemyHealth;
         }
     }
 }

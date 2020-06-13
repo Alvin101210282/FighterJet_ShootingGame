@@ -65,7 +65,7 @@ namespace FighterJetUnitTesting
         {
             Enemy boss = new Enemy(100, 6, "rocket", 3);
             Player plyr = new Player();
-            boss.DeductHealth(boss, plyr);
+            boss.DeductHealth(plyr);
             Assert.AreEqual(boss.EnemyHealth, 0);
         }
 
