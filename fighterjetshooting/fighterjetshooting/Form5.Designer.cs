@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -284,8 +285,8 @@
             // 
             // arrowkeys
             // 
-            this.arrowkeys.Image = global::fighterjetshooting.Properties.Resources.arrowkeys_1;
-            this.arrowkeys.Location = new System.Drawing.Point(32, 124);
+            this.arrowkeys.Image = ((System.Drawing.Image)(resources.GetObject("arrowkeys.Image")));
+            this.arrowkeys.Location = new System.Drawing.Point(-3, 124);
             this.arrowkeys.Name = "arrowkeys";
             this.arrowkeys.Size = new System.Drawing.Size(236, 113);
             this.arrowkeys.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

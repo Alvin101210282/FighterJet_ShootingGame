@@ -50,5 +50,14 @@ namespace fighterjetshooting
             get { return bulletType; }
             set { bulletType = value; }
         }
+
+        public int DeductHealth(Enemy enemy, Player player)
+        {
+            while (enemy.EnemyHealth != 0)
+            {
+                enemy.EnemyHealth -= player.Attack;
+            }
+            return enemy.EnemyHealth;
+        }
     }
 }
